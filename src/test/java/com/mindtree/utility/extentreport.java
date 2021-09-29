@@ -11,5 +11,5 @@ public class extentreport {
 			extent = new ExtentReports();
 			extent.attachReporter(reporter);
 			return path;
-		}
 	}
+}

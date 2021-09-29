@@ -1,5 +1,5 @@
 package com.mindtree.runner;
-import java.io.File;
+
 import java.io.IOException;
 
 import java.util.ArrayList;
@@ -61,7 +61,7 @@ import com.mindtree.utility.screenshot;
 		public void signup() throws Exception {
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			hp.username().sendKeys("ka12q2jhf7@gmail.com");
+			hp.username().sendKeys("afasfsdf@gmail.com");
 			hp.password().sendKeys("demo1234");
 			hp.loginbutton().click();
 			log.info("signup successful");
@@ -173,7 +173,7 @@ import com.mindtree.utility.screenshot;
 			}
 			@Test(priority =8)
 			public void giveaway() throws Exception {
-				hp.emailBox().sendKeys("haft8q7@gmail.com");
+				hp.emailBox().sendKeys("afsdfsa@gmail.com");
 				hp.subscribeButton().click();
 				log.info(log);
 				String temp=screenshot.takeSnapShot(driver);
